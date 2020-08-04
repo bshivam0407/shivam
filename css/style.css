@@ -1,0 +1,200 @@
+/*  Import Fonts.css*/
+
+@import url(./font.css);
+@import url(./partials/_variables.css);
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    z-index: 999;
+    
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 1rem 0 1rem;
+    font-family:'OpenSans',cursive;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 10rem;
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+
+}
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px 'OpenSans',cursive;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: #141313;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: #141313;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+
+/* Home*/
+.site-main .home{
+    padding: 2rem 10rem;
+}
+.site-main .home .site-title h3{
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+.site-main .home .site-title h1{
+    font-size: 4rem;
+}
+.site-main .home .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .home .profile-image > img{
+    padding: 7rem 0;
+    width: 70rem;
+}
+.title-text{
+    font: normal bold 50px/72px 'OpenSans',cursive;
+}
+.title-text.designation{
+    font: normal bold 50px/36px 'OpenSans',cursive;
+}
+
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px 'OpenSans',cursive;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+.button.primary-button{
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    
+}
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip:padding-box;
+    transition: background .6s ease;
+    
+}
+.button.secondary-button:hover{
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    color: whitesmoke;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+.site-main .skills{
+    padding: 2rem 10rem;
+    margin-bottom: 4rem;
+    font-weight: 800;
+}
+.site-main .skills .first-row .col-sm-4{
+    display: flex;
+    justify-content: center;
+
+}
+.site-main .skills .first-row .col-sm-4 .single-skill{
+    
+    text-align: center;
+    padding: 1.2rem 0;
+    margin: .9rem 0;
+}
+
+.site-main .skills .first-row .col-sm-4 .single-skill:hover{
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    transform: scale(1.1);
+    
+}
+
+.site-main .skills .title-text{
+    padding: 50%;
+    font-size: 5rem;
+
+}
+.site-main .projects{
+    padding: 7rem 2rem;
+}
+
+.site-main .projects .project-title{
+    padding:  0 14rem;
+}
+.site-main .projects .project-title h1{
+    font-size: 35px;
+}
+.site-main .projects .project{
+    background: rgba(248,252,253,0.973);
+    padding: 2rem 0;
+    width: 22rem;
+    margin: 5rem 0.5rem;
+    transition: box-shadow 0.7s;
+}
+.site-main .projects .project-image>img{
+    width: 18rem;
+}
+
+.site-main .projects .project:hover{
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+.Contact{
+    padding: 7rem 2rem;
+}
+
+
+.Contact h2{
+    font: normal bold 50px/72px 'OpenSans',cursive;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+  .contacts-div{
+    padding-top: 3%;
+  }
+  
+  .contact-item{
+    text-align:center;
+  }
+  
+  .contact-img{
+    color: #303841;
+    margin-bottom: 2%;
+  }
+  
+  .fab:hover{
+    color: #3498db;
+  }

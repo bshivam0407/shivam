@@ -1,0 +1,29 @@
+
+
+@media only screen and (max-width:600px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .projects,
+    .site-main .home,
+    .site-main .skills,
+    .site-main,
+    .site-main .project{
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .home h1{
+        font-size: 40px;
+    }
+    .site-main .skills .title-text{
+        padding: 2%;
+        text-align: center;
+    }
+    .site-main .projects .project-list
+    {
+        padding: 0%;
+        margin: 0%;
+        width: 18rem;
+    }
+    
+    
+}
